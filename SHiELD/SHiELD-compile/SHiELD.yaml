@@ -16,14 +16,9 @@ build:
   platformYaml: "../../platforms.yaml"
   compileYaml: "compile.yaml"
 
-shared:
-  # directories shared across tools
-  directories: &shared_directories
-    history_dir:  !join [/archive/$USER/, *FRE_STEM, /, *name, /, *platform, -, *target, /, history]
-    pp_dir:       !join [/archive/$USER/, *FRE_STEM, /, *name, /, *platform, -, *target, /, pp]
-    analysis_dir: !join [/nbhome/$USER/, *FRE_STEM, /, *name]
-    ptmp_dir:     "/xtmp/$USER/ptmp"
-
 experiments:
-  - name:
+  - name: "shield"
+  - name: "shield24"
+  - name: "cshield25"
+  - name: ""
     pp:
