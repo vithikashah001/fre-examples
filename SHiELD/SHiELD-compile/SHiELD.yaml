@@ -18,7 +18,9 @@ build:
 
 experiments:
   - name: "shield"
+    settings: "SHieLD_settings.yaml"
   - name: "shield24"
+    settings: ""
   - name: "cshield25"
-  - name: ""
+    settings: ""
     pp:
