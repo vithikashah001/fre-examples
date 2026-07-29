@@ -1,0 +1,9 @@
+layouts:
+ experiment1:
+   job_wallclock: "16:00:00"
+   seg_runtime: "03:30:00"
+   atm:
+   lnd:
+   ocn:
+   ice:
+           
