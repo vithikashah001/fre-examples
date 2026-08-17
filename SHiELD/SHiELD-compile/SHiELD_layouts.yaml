@@ -1,9 +1,30 @@
 layouts:
- experiment1:
+ SHiELD_rt2022_C768_cpsd_GFSv16:
+   job_wallclock: "16:00:00"
+   seg_runtime: "03:30:00"
+   atm:  
+   lnd:
+   ocn:
+   ice:
+ SHiELD_rt2024_C1536_aero_GFSv16:
+   job_wallclock: "16:00:00"
+   seg_runtime: "03:30:00"
+   atm:
+   lnd:
+   ocn:
+   ice:   
+ C-SHiELD_rt2025:
    job_wallclock: "16:00:00"
    seg_runtime: "03:30:00"
    atm:
    lnd:
    ocn:
    ice:
-           
+T-SHiELD_k24dv1:
+   job_wallclock: "16:00:00"
+   seg_runtime: "03:30:00"
+   atm:
+   lnd:
+   ocn:
+   ice:
+  
