@@ -3,7 +3,7 @@ layouts:
    job_wallclock: "16:00:00"
    seg_runtime: "03:30:00"
    atm:
-      ranks: 
+      ranks: 1536
       threads: 4
       layout: "16,16"
       io_layout: "1,1"
@@ -14,7 +14,7 @@ layouts:
    job_wallclock: "16:00:00"
    seg_runtime: "03:30:00"
    atm:
-      ranks: 
+      ranks: 13824
       threads: 2
       layout: "48,48"
       io_layout: "1,1"
@@ -25,7 +25,7 @@ layouts:
    job_wallclock: "16:00:00"
    seg_runtime: "03:30:00"
    atm:
-      ranks: 4608
+      ranks: 864
       threads: 2
       layout: "12,12"
       io_layout: "1,1"
